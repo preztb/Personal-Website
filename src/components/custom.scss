@@ -1,0 +1,18 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+$theme-colors: (
+  "primary": white,
+  "danger": #ff4136
+);
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+
+
+

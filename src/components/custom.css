@@ -121,3 +121,22 @@ blockquote{
     border-radius: 25px;
     
 }
+
+.off-screen {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform .7s ease-out, opacity .7s ease-out;
+}
+
+
+
+.off-screen2 {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+}

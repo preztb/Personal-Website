@@ -2,7 +2,7 @@
 import './proj.css'
 
 const Layproj = () => {
-
+    
     
   return (
     <div>

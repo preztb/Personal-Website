@@ -21,6 +21,14 @@ function Homebox() {
             rootMargin: '0px', // no margin
             threshold: 0.5, // when half of the block is visible
         };
+
+        const longs = {
+            root: null, // viewport
+            rootMargin: '0px', // no margin
+            threshold: 0.01, // when half of the block is visible
+        };
+
+
         
        
         
@@ -33,7 +41,7 @@ function Homebox() {
                     entry.target.classList.remove('slide-in');
                 }
             });
-        }, options);
+        }, longs);
 
         const blockObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {

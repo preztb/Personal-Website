@@ -104,7 +104,7 @@ blockquote{
 
 .main-text{
     
-    font-size: 200px;
+    font-size: 100px;
     font-style: italic;
     color: wheat;
     
@@ -114,10 +114,10 @@ blockquote{
 
 .main-border{
     border: 10px solid wheat;
-    margin-bottom: 14rem;
+    margin-bottom: 15rem;
     padding-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     border-radius: 25px;
     
 }

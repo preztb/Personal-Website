@@ -6,7 +6,6 @@ import Divider from '../components/Divider'
 const Home = () => {
   return (
     <>
-    
       <HomeScroll/>
       <Divider/>
       <Homebox/>

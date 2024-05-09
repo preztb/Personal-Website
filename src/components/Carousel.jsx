@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Image18 from '../assets/me-and-renee.png'
 import Texas from '../assets/texas-me.png';
 import Image from 'react-bootstrap/esm/Image';
-import Pop from '../assets/pop.png';
 import './custom.css';
 
 function HomeScroll() {

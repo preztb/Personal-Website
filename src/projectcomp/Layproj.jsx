@@ -1,7 +1,6 @@
 
 import './proj.css'
-import Image from 'react-bootstrap/Image'
-import Github from '../assets/github-mark.svg'
+import Github from '../assets/github-mark.png'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
@@ -14,12 +13,40 @@ const Layproj = () => {
     <div>
         <Container>
             <Row>
-                <Col>
-                <Link to='https://github.com/preztb/Personal-Website'>
-                    <div className='image-str'>
-                    <Image src={Github} alt="github logo"/>
-                    </div>
-                </Link>
+                <Col> 
+                
+                <ul>
+                  <li>
+                  <div className='image-str'>
+                    <Link to='https://github.com/preztb/Personal-Website'>
+                      
+                      <img alt="github logo"  className='img-sz' src={Github}/>
+                      
+                    </Link>
+                  </div>
+                  </li>
+                  
+                <div className='image-str '>
+
+                
+                <p>The repository for this website</p>
+                </div>
+                  <li>
+                  <div className='image-str'>
+                  <Link to='https://github.com/preztb/Personal-Website'>
+                    
+                    <img alt="github logo"  className='img-sz' src={Github}/>
+                    
+                  </Link>
+                  </div>
+                  
+
+
+
+                  </li>
+                </ul>
+                
+                
                 </Col>
             </Row>
         </Container>

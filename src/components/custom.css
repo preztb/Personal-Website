@@ -104,7 +104,7 @@ blockquote{
 
 .main-text{
     
-    font-size: 100px;
+    font-size: 7em;
     font-style: italic;
     color: wheat;
     
@@ -113,9 +113,9 @@ blockquote{
 }
 
 .main-border{
-    border: 10px solid wheat;
-    margin-bottom: 15rem;
-    padding-top: 30px;
+    border: .5em solid wheat;
+    margin-bottom: 14rem;
+    padding-top: 1rem;
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 25px;
@@ -139,4 +139,17 @@ blockquote{
 .slide-in {
     transform: translateX(0);
     opacity: 1;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+    }
 }
